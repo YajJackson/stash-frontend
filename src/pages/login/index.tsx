@@ -1,3 +1,4 @@
+import { API_URL } from '@api'
 import React, { useState } from 'react'
 import { SignInForm } from './sign_in_form'
 import { SignUpForm } from './sign_up_form'
@@ -35,6 +36,9 @@ export const LoginPage = () => {
                     </button>
                 </div>
             )}
+            <div className='text-sm text-gray-400'>
+                <p>Using API_URL: {API_URL}</p>
+            </div>
         </div>
     )
 }

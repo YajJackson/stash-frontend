@@ -7,7 +7,7 @@ import { useHistory } from 'react-router-dom'
 
 import { authAPI } from './auth'
 
-export const API_URL = import.meta.env.API_URL
+export const API_URL = process.env.API_URL
 const api = axios.create({
     baseURL: API_URL || 'http://localhost:1337',
 })
