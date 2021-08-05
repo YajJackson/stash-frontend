@@ -10,9 +10,8 @@
             "@store/*": ["./store/*"],
             "@lib/*": ["./lib/*"],
             "@api/*": ["./api/*"],
-            "@context/*": ["./context/*"],
-            "@@types": ["./types/index.ts"],
-            "@@types/*": ["./types/*"]
+            "@api": ["./api/index.ts"],
+            "@context/*": ["./context/*"]
         },
         "allowSyntheticDefaultImports": true,
         "jsx": "react",
